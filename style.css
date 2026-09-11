@@ -27,7 +27,7 @@ header {
 
 h1 {
   font-size: 72px;
-}
+} 
 
 .subheader {
   font-size: 36px;
@@ -95,7 +95,7 @@ h2 {
 }
 
 .section__description--wrapper {
-  width: 40%;
+  width: 60%;
   padding: 0 24px;
 }
 
@@ -115,7 +115,7 @@ img {
 
 .section__description--para {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.5; 
   margin-bottom: 24px;
 }
 
@@ -124,3 +124,19 @@ img {
 DISCORD
 
 */
+
+#discord {
+  background-color: #cefeff;
+
+/*
+
+CONTACT
+
+*/
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
