@@ -153,6 +153,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 #input, #textarea {
@@ -187,6 +188,13 @@ footer {
 .footer__links {
   padding: 0 16px;
 }
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px){
+flex-direction: column;
+}
+
+
 
 
 
