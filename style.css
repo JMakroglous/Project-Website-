@@ -191,7 +191,9 @@ footer {
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 728px){
-flex-direction: column;
+  .row {
+    flex-direction: column;
+  }
 }
 
 
